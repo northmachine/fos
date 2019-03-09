@@ -10,6 +10,7 @@
 ###	 使用说明
 		1.修改FOSClient/fostcpsocket.cpp处
 ![修改为对应服务器IP端口](http://39.105.38.48/images/2019/03/09/client_ip_port.png "修改这两处")
+
 		2.修改客户端颜色
 	
 ###	 成果截图
