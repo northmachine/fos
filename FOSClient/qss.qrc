@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>styleSheets/log.qss</file>
+        <file>styleSheets/main.qss</file>
+        <file>styleSheets/chat.qss</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,132 @@
+*{margin:0;padding:0;border:none;font:10pt "等线 Light";color:#5A5B56;}
+
+FOSMainWindow#mainWindow{background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 #F6CFBB, stop:0.1 #FBB86F stop:1 #FBB86F);}
+
+QPushButton{
+    border:none;
+    font-size:16px;
+    font-weight:500;
+}
+
+
+/*topLayout*/
+QLineEdit#edit_search{
+    background-color:#EEEDF0;
+    border:1px solid #D6D5DD;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+QPushButton#mode_search{
+    font-size:12px;
+    font-weight:400;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+}
+
+QPushButton#mode_search:hover{
+    border:1px solid #7DAABA;
+}
+
+QPushButton#mode_search:pressed{
+    border:1px solid #7DAABA;
+}
+
+
+/*navLayout*/
+QWidget > QPushButton{
+    background-color:#D6D5DD;
+}
+
+QWidget > QPushButton:hover{
+    background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0,stop:0 #FAB87B, stop:0.2 #D6D5DD, stop:1 #D6D5DD);
+}
+
+QWidget > QPushButton:pressed{
+    background-color:#A5B9C5;
+}
+
+QWidget > QPushButton:checked{
+    background-color:#EFC8B4;
+}
+
+
+
+/*centreLayout*/
+QWidget > .QWidget{
+    background-color:#EFC8B4;
+}
+QPlainTextEdit{
+    background-color:#F1D9D0;
+    font-size:14px;
+}
+    /*mode_home*/
+QScrollArea QLabel{
+    font-size:18px;
+}
+
+    /*mode_social*/
+FOSUserItems{
+    background-color:#E8E2E1;
+}
+
+QFrame QPushButton{
+    font-size:14px;
+    font-weight:400;
+    background-color:#E8E2E1;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+}
+QFrame QPushButton:hover{
+    background-color:#E5ECF1;
+}
+QFrame QPushButton:pressed{
+    border-top:2px solid #3A2C1A;
+}
+
+
+
+QScrollBar:vertical
+{
+width:10px;
+border:none;
+margin:0px,0px,0px,0px;
+padding-top:10px;
+padding-bottom:10px;
+}
+QScrollBar::handle:vertical
+{
+width:10px;
+background:#E8FFFF;
+min-height:20;
+}
+
+QScrollBar::handle:vertical::disabled
+{
+background:#B7C3D2;
+}
+QScrollBar::handle:vertical:hover
+{
+background:#B7C3D2;
+}
+QScrollBar::add-line:vertical
+{
+height:10px;
+background:#B7C3D2;
+subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical
+{
+height:10px;
+background:#B7C3D2;
+subcontrol-position:top;
+}
+QScrollBar::add-page:vertical
+{
+background:#E9B799;
+}
+
+QScrollBar::sub-page:vertical
+{
+background:#E9B799;
+}

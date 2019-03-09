@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/png">
+        <file>images/logo.png</file>
+        <file>images/flags.png</file>
+        <file>images/capital.png</file>
+        <file>images/homeImg.png</file>
+    </qresource>
+    <qresource prefix="/ico">
+        <file>fos.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,73 @@
+*{border:none;font:10pt "黑体";color:#5b5e61;}
+
+QFrame#frame{
+    background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:0, y2:1, stop:0 #9ba0a5, stop:0.15 #e5dfe9, stop:0.48 #e5dfe9,stop:0.481 #f7f1f9, stop:1 #f7f1f9);
+    border-radius:3px;
+}
+
+QLabel#logo {
+    background-image:url(:/png/images/logo.png);
+    background-repeat:no-repeat;
+    padding-left:150px;
+}
+
+QLabel#alert{
+    background-color:#f0eaf3;
+    border:1px solid #d1ccd4;
+    font-size:12px;
+}
+
+QGroupBox{border-bottom:1px solid #e5dfe9;}
+
+QGroupBox#groupBox_2
+{
+    background-repeat:no-repeat;
+    background-position:bottom right;
+}
+
+QLineEdit{
+    background-color: rgba(255, 255, 255, 0%);
+}
+
+QPushButton{
+    background-color:#e5dfe9;
+}
+
+QPushButton:hover{
+    border:2px solid #f1ebf4;
+}
+
+QPushButton:pressed{
+    background-color:#d1ccd4;
+    border:2px solid #f1ebf4;
+}
+
+QPushButton#loginButton{border-bottom-left-radius:5px;}
+
+QPushButton#registerButton{border-bottom-right-radius:5px;}
+
+QPushButton#closeButton,QPushButton#minimizeButton{
+    background-color:#9ba0a5;
+    background-image:url(:/png/images/flags.png);
+    background-repeat:no-repeat;
+}
+
+QPushButton#closeButton{
+    background-position:top left;
+    border-top-right-radius:3px;
+}
+
+QPushButton#minimizeButton{
+    background-position:bottom left;
+    border-bottom-left-radius:3px;
+}
+
+QPushButton#closeButton:hover,QPushButton#minimizeButton:hover{
+    border:none;
+    background-color:#f1ebf4;
+}
+
+QPushButton#closeButton:pressed,QPushButton#minimizeButton:pressed{
+    border:none;
+    background-color:#f1ebf4;
+}

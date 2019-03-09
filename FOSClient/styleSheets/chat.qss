@@ -1,0 +1,25 @@
+*{margin:0;padding:0;border:none;font:10pt "等线 Light";color:#5A5B56;}
+
+FOSChatWidget#chatWidget{background-color:#FBB86F;}
+
+QScrollArea,QPlainTextEdit{
+    background-color:#F1D9D0;
+}
+
+QPushButton{
+    font-size:14px;
+    background-color:#E8E2E1;
+}
+QPushButton:hover{
+    border:1px solid #FBB86F;
+    background-color:#E5ECF1;
+}
+QPushButton:checked{
+    background-color:#CBA58D;
+}
+
+QLabel{
+    font-size:14px;
+    border-left:1px solid #FBB86F;
+    border-right:1px solid #FBB86F;
+}
