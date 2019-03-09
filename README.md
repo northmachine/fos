@@ -9,7 +9,7 @@
 		FOSServer为服务器文件夹
 ###	 使用说明
 		1.修改FOSClient/fostcpsocket.cpp处
-		![修改为对应服务器IP端口](https://github.com/northmachine/fos/readmejpg/client_ip_port.png "修改这两处")
+		![修改为对应服务器IP端口](https://github.com/northmachine/fos/blob/master/readmejpg/client_ip_port.png "修改这两处")
 		2.修改客户端颜色
 	
 ###	 成果截图
